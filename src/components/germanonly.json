@@ -1,0 +1,525 @@
+"$schema": "./dataSchema.json",
+  "quiz": [
+    {
+      "language": "german",
+      "title": "Bist Du sicher?",
+      "description": "Grundlegende Schutzmaßnahmen gegen das neue Coronavirus",
+      "path": "safe",
+      "buttonText": "Mach das Quiz",
+      "successMessage": "Kennst Du nun die grundlegende Schutzmaßnahmen gegen das neue Coronavirus?",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Wäschst Du Deine Hände häufig?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, ich wasche meine Hände häufig",
+              "title": "Gut, wasche Deine Hände häufig",
+              "description": [
+                "Häufiges, regelmäßiges und sorgfältiges Händewaschen mit Wasser und Seife und oder die Benutzung von Handdesinfektion auf Alkoholbasis tötet die Viren ab, die sich auf Deinen Händen befinden können."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein",
+              "title": "Du mußt Deine Hände häufiger waschen!",
+              "description": [
+                "Häufiges, regelmäßiges und sorgfältiges Händewaschen mit Wasser und Seife und oder die Benutzung von Handdesinfektion auf Alkoholbasis tötet die Viren ab, die sich auf Deinen Händen befinden können."
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/bPITHEiFWLc",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Berührst Du oft Deine Augen, Nase oder den Mund?",
+          "description": "add description for question",
+          "hint": "Vermeide es, Deine Augen, Nase oder den Mund zu berühren!",
+          "answers": [
+            {
+              "option": "Ja, mache ich",
+              "title": "Vermeide es, Deine Augen, Nase oder den Mund zu berühren!",
+              "description": [
+                "Deine Hände berühren viele Oberflächen und können dadurch Viren aufnehmen. Einmal verschmutzt können die Hände das Virus in Augen, Nase und Mund übertragen. Von dort gelangen sie in Deinen Körper und machen Dich krank."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, mache ich nicht.",
+              "title": "Gut! Vermeide es weiterhin, Deine Augen, Nase oder den Mund zu berühren!",
+              "description": [
+                "Deine Hände berühren viele Oberflächen und können dadurch Viren aufnehmen. Einmal verschmutzt können die Hände das Virus in Augen, Nase und Mund übertragen. Von dort gelangen sie in Deinen Körper und machen Dich krank."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Bedeckst Du Deinen Mund und Deine Nase mit Deinem gebeugten Ellenbogen oder einem Taschentuch, wenn Du hustest oder niest?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, mache ich",
+              "title": "Gut, mach so weiter und erinnere die Leute um Dich herum. Du folgst einer guten Hygienepraxis.",
+              "description": [
+                "Bedecke Deinen Mund und Deine Nase mit Deinem gebeugten Ellenbogen oder einem Taschentuch, wenn Du hustest oder niest, dann wirf das Taschentuch sofort weg. Tröpfchen verbreiten das Virus. Mit einer guten Hygienepraxis kannst Du die Menschen um Dich herum vor Viren schützen, die Erkältungen, Grippe oder COVID-19 übertragen."
+              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, mache ich nicht",
+              "title": "Praktiziere eine gute Atemhygiene!",
+              "description": [
+                "Stelle sicher daß Du und die Menschen um Dich herum eine gute Atemhygiene praktizieren. Das bedeutet: Bedecke Deinen Mund und Deine Nase mit Deinem gebeugten Ellenbogen oder einem Taschentuch, wenn Du hustest oder niest, dann wirf das Taschentuch sofort weg.",
+                "Tröpfchen verbreiten das Virus. Mit einer guten Hygienepraxis kannst Du die Menschen um Dich herum vor Viren schützen, die Erkältungen, Grippe oder COVID-19 übertragen."
+              ],
+              //"youtubeUrl": "https://www.youtube.com/embed/6Ooz1GZsQ70",
+              "imageUrl": "https://pbs.twimg.com/media/ESAQNdGXUAEkHGM?format=jpg&name=medium",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Bist Du ein Patient mit einer Herz-Kreislauferkrankung, einer chronischen Atemwegserkrankung, oder hast Du Diabetes, Bluthochdruck oder Krebs?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, habe ich",
+              "title": "Vorsicht! Du hast ein höheres Risiko für Komplikationen, wenn Du Dich infizierst.",
+              "description": [
+                "Das Risiko für einen schweren Verlauf nach einer Infektion mit dem Coronavirus ist höher, wenn Du eine solche Vorerkrankung hast. Sei besonders vorsichtig, wenn Du in einer solchen Risikogruppe bist. Suche sofort medizinische Hilfe auf, wenn Du Symptome hast."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, habe ich nicht",
+              "title": "Du hast ein bedeutend geringeres Risiko von Komplikationen",
+              "description": [
+                "Wenn Du keine solchen Vorerkrankungen hast, verringert das das Eintreten von Komplikationen bei einer Infektion"
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Wenn bei Dir Fieber, Husten oder Atembeschwerden auftreten, weißt Du genau, was Du in einer solchen Situation tun mußt?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, das weiß ich",
+              "title": "Gut, wenn Du die beschriebenen Symptome hast, dann rufe als Erstes medizinische Hilfe an.",
+              "description": [
+                "Wenn bei Dir Fieber, Husten oder Atembeschwerden auftreten, dann rufe so schnell wie möglich medizinische Hilfe an. Bleib zu Hause, wenn Du Dich nicht gut fühlst. Wenn Du Fieber Husten oder Atembeschwerden hast, suche eine Arztpraxis auf, aber rufe vorher dort an. Folge den Anweisungen des örtlichen Gesundgheitsamtes.",
+                "Nationale, regionale und lokale Ämter haben die aktuellsten Informationen über die Situation and Deinem Aufenthaltsort. Ein vorheriger Anruf hilft der medizinischen Einrichtung, Dich sofort an die richtige Stelle weiter zu leiten. Das schützt Dich und hilft, die Ausbreitung von Viren und anderen Infektionen zu verhindern."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, das weiß ich nicht",
+              "title": "Wenn Du die beschriebenen Symptome hast, dann rufe als Erstes medizinische Hilfe an.",
+              "description": [
+                "Wenn bei Dir Fieber, Husten oder Atembeschwerden auftreten, dann rufe so schnell wie möglich medizinische Hilfe an. Bleib zu Hause, wenn Du Dich nicht gut fühlst. Wenn Du Fieber Husten oder Atembeschwerden hast, suche eine Arztpraxis auf, aber rufe vorher dort an. Folge den Anweisungen des örtlichen Gesundheitsamtes.",
+                "Nationale, regionale und lokale Ämter haben die aktuellsten Informationen über die Situation an Deinem Aufenthaltsort. Ein vorheriger Anruf hilft der medizinischen Einrichtung, Dich sofort an die richtige Stelle weiter zu leiten. Das schützt Dich und hilft, die Ausbreitung von Viren und anderen Infektionen zu verhindern."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "german",
+      "title": "Schutzmaßnahmen",
+      "description": "Grundlegende Schutzmaßnahmen gegen das neue Coronavirus",
+      "path": "protective_measures",
+      "buttonText": "Mach das Quiz",
+      "successMessage": "Du weißt nun Bescheid über die grundlegenden Schutzmaßnahmen gegen das neue Coronavirus",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Praktizierst Du Atemhygiene?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, mache ich",
+              "title": "Gut! Stelle sicher daß Du und die Leute um Dich herum gute Atemhygiene paktizieren.",
+              "description": [
+                "Atemhygiene kann nicht nur eine eigene Infektion verhindern, sondern hilft auch Anderen. Geh mit gutem Beispiel voran im Kampf gegen CoVID 19!"
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, mache ich nicht",
+              "title": "Praktiziere gute Atemhygiene.",
+              "description": [
+                "Stelle sicher daß Du und die Leute um Dich herum gute Atemhygiene paktizieren. Das bedeutet: Bedecke Deinen Mund und Deine Nase mit Deinem gebeugten Ellenbogen oder einem Taschentuch, wenn Du hustest oder niest, dann wirf das Taschentuch sofort weg.",
+                "Tröpfchen verbreiten das Virus. Mit einer guten Hygienepraxis kannst Du die Menschen um Dich herum vor Viren schützen, die Erkältungen, Grippe oder COVID-19 übertragen.",
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Befolgst Du streng die Anweisungen von Gesundheitsbehörden oder Deinem Arzt?",
+          "description": "add description for question",
+          "hint": "Vermeide, deine Augen, die Nase oder den Mund anzufassen",
+          "answers": [
+            {
+              "option": "Ja, mache ich",
+              "title": "Gut! Halte Dich informiert und höre auf die Gesundheitsbehörden",
+              "description": [
+                "Es ist immer gut, sich ein gutes Wissen darüber anzueignen, was vorgeht, wie man einer Virusinfektion vorbeugt und auch, wie man Anderen das Wissen mitteilt. Hilfe findest Du bei den Gesundheitsbehörden, falls Du bei Dir Symptome feststellst.",
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, mache ich nicht",
+              "title": "Du solltest Dich informiert halten und die Ratschläge der Gesundheitsbehörden befolgen.",
+              "description": [
+                "Bleibe stets über die letzten Entwicklungen zum COVID-19 informiert. Befolge die Ratschläge Dienes Arztes, der nationalen oder lokalen Gesundheitsbehörden, oder Deines Arbeitgebers, Wie Du Dich und Andere vor COVID-19 schützt.",
+                "Warum? Nationale und lokala Behörden haben die aktuellsten Informationen über die Ausbreitung von COVID-19 in Deiner Gegend. Sie sind am Besten geeignet, um Ratschläge dazu zu geben, was Menschen in Deiner Gegend machen sollten, um sich zu schützen."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Weißt Du, wie Du eine Maske aufsetzt und wie Du sie entsorgst?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, weiß ich",
+              "title": "Gut, die richtige Benutzung von Masken kann helfen, die Verbreitung des Virus zu verhindern.",
+              "description": [
+                "Masken helfen, eine Virusinfektion zu vermeiden, daher ist es wichtig zu wissen, wie man sie richtig nutzt und später entsorgt. schau Dir das Videounten an, um mehr zu erfahren:",
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, weiß ich nicht",
+              "title": "Du solltest wissen, wie man eine Maske richtig benutzt",
+              "description": [
+                "Bevor Du eine Maske anziehst reinige Deine Hände mit alkoholbasiertem Desinfektionsmittel oder Wasser und Seife.",
+                "Bedecke Deinen Mund und Nase mit der Maske und stelle sicher, daß keine Zwischenräume zwischen Deinem Gesicht und der Maske entstehen.",
+                "Vermeide die Maske anzufassen, so lange Du sie trägst. Bevor Du sie anfaßt reinige Deine Hände mit alkoholbasiertem Desinfektionsmittel oder Wasser und Seife.",
+                "Ersetze Deine Maske mit einer neuen, wenn sie durchfeuchtet ist und verwende benutzte Einwegmasken nicht mehrmals.",
+                "Um die Maske abzusetzen entferne sie von hinten vom Gesicht (fasse sie nicht vorne an). Wirf sie sofort in einen abgedeckten Mülleimer; reinige Deine Hände mit alkoholbasiertem Desinfektionsmittel oder Wasser und Seife.",
+                "Schau Dir das Vide unten an, um mehr zu erfahren: "
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/lrvFrH_npQI",
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Fliegst Du aus einem COVID-19 infizierten Land nach Hause? Weißt Du, was Du tun mußt?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, weiß ich",
+              "title": "Gut! Folge allen Anweisungen, die Du am Flughafen erhältst und begebe Dich zu Hause in eine 14tägige Quarantäne.",
+              "description": [
+                "Alle notwendigen Anweisungen wirst Du im Flugzeug oder am Flughafen erhalten. Bitte versuche alles zu verstehen beachte die Anweisungen besonders sorgfältig. Versuche nicht, Deinen Reiseverlauf oder Symptome zu verschweigen, das führt nur später zu Problemen. Du könntest bei der Ankunft am Flughafen einem Gesundheitstest unterzogen werden. Bitte arbeite mit den Flughafenbehörden zusammen, sie arbeiten für Deine eigene Sicherheit. Nach Deiner Ankunft daheim begebe Dich in eine 14tägige Quarantäne. und kontaktiere die lokalen Gesundheitsbehörden, wenn Du irgendwelche Symptome feststellst."
+              ],
+              "correctAnswer": true
+            },
+            {
+              "option": "Nein, weiß ich nicht",
+              "title": "Folge allen Anweisungen, die Du am Flughafen erhältst und begebe Dich zu Hause in eine 14tägige Quarantäne.",
+              "description": [
+                "Alle notwendigen Anweisungen wirst Du im Flugzeug oder am Flughafen erhalten. Bitte versuche alles zu verstehen beachte die Anweisungen besonders sorgfältig. Versuche nicht, Deinen Reiseverlauf oder Symptome zu verschweigen, das führt nur später zu Problemen. Du könntest bei der Ankunft am Flughafen einem Gesundheitstest unterzogen werden. Bitte arbeite mit den Flughafenbehörden zusammen, sie arbeiten für Deine eigene Sicherheit. Nach Deiner Ankunft daheim begebe Dich in eine 14tägige Quarantäne. und kontaktiere die lokalen Gesundheitsbehörden, wenn Du irgendwelche Symptome feststellst."
+              ],
+              "correctAnswer": false
+            }
+          ]
+        },
+        {
+          "title": "Planst Du in der nächsten Zeit an einem Veranstaltung oder einer Versammlung teilzunehmen oder solche zu organisieren?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, plane ich",
+              "title": "Mach' es nicht! Vermeide alle Versammlungen in den nächsten Wochen um die Ausbreitung von COVID-19 zu verhindern.",
+              "description": [
+                "Massenversammlungen von Menschen ermöglichen es dem Virus, sich leicht zu verbreiten. Vermeide alle Veranstaltungen einschließlich Hochzeiten, Beerdigungen, Filmvorführungen oder andere öffentliche Veranstaltungen in den nächsten Wochen. Wenn Du der Veranstalter einer solchen Veranstaltung bist, überlege die Veranstaltung auf einen späteren Termin zu verschieben um die Sicherheit der Teilnehmer sicher zu stellen."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, plane ich nicht",
+              "title": "Gut! Vermeide alle Versammlungen in den nächsten Wochen um die Ausbreitung von COVID-19 zu verhindern.",
+              "description": [
+                "Massenversammlungen von Menschen ermöglichen es dem Virus, sich leicht zu verbreiten. Vermeide alle Veranstaltungen einschließlich Hochzeiten, Beerdigungen, Filmvorführungen oder andere öffentliche Veranstaltungen in den nächsten Wochen."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Planst Du eine Reise in den nächsten Wochen?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, das plane ich",
+              "title": "Mach' es nicht! Das Beste ist, in den kommenden Wochen dort zu bleiben, wo Du gerade bist, um die Ausbreitung von COVID-19 zu verhindern.",
+              "description": [
+                "Vermeide alle Arten von Reisen, sowohl geschäftliche als auch private, in den kommenden Wochen. Du könntest während der Reise mit einer infizierten Person in Kontakt kommen. Das Beste ist, dort zu bleiben, wo Du gerade bist. Geh' nur raus um medizinische Hilfe zu erhalten."
+              ],
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, plane ich nicht",
+              "title": "Gut, vermeide jegliche Reisen in den kommenden Wochen, um die Ausbreitung von COVID-19 zu verhindern.",
+              "description": [
+                "Vermeide alle Arten von Reisen, sowohl geschäftliche als auch private, in den kommenden Wochen. Du könntest während der Reise mit einer infizierten Person in Kontakt kommen. Das Beste ist, dort zu bleiben, wo Du gerade bist. Geh' nur raus um medizinische Hilfe zu erhalten."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Weißt Du wann Du eine Maske benutzen solltest?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ich weiß, wann ich eine Maske nutzen sollte.",
+              "title": "Gut! Wenn Du eine Maske richtig nutzt wird das helfen, die Verbreitung des Virus zu verhindern.",
+              "description": [
+                "Es ist wichtig zu wissen, wann Du eine Maske nutzen solltest und anderen das zu erklären.",
+                "Wenn Du gesund bist mußt Du nur eine Maske nutzen wenn Du Dich um eine Person kümmerst, bei der ein Verdacht auf eine 2019-nCoV Infektion besteht.",
+                "Nutze eine Maske wenn Du hustest oder niest.",
+                "Masken sind nur effektiv in Kombination mit häufgem Händewaschen mit einer alkoholbasierten Handdesinfektion oder mit Wasser und Seife.",
+                "Wenn Du eine Maske nutzt solltest Du wissen, wie man sie nutzt und wie Du sie richtig entsorgst.",
+                "Schau Dir das Video unten an, um mehr zu erfahren:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": true
+            },
+            {
+              "option": "Ich bin mir nicht sicher",
+              "title": "Informiere Dich, wann Masken zu benutzen sind!",
+              "description": [
+                "Es ist wichtig zu wissen, wann Du eine Maske nutzen solltest und anderen das zu erklären.",
+				"Wenn Du gesund bist mußt Du nur eine Maske nutzen wenn Du Dich um eine Person kümmerst, bei der ein Verdacht auf eine 2019-nCoV Infektion besteht.",
+                "Nutze eine Maske wenn Du hustest oder niest.",
+                "Masken sind nur effektiv in Kombination mit häufgem Händewaschen mit einer alkoholbasierten Handdesinfektion oder mit Wasser und Seife.",
+                "Wenn Du eine Maske nutzt solltest Du wissen, wie man sie nutzt und wie Du sie richtig entsorgst.",
+                "Schau Dir das Video unten an, um mehr zu erfahren:"
+              ],
+              "youtubeUrl": "https://www.youtube.com/embed/Ded_AxFfJoQ",
+              "correctAnswer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "language": "german",
+      "title": "Faktencheck",
+      "description": "Typische Mythen und falsche Vorstellungen über COVID-19",
+      "path": "myth_busters",
+      "buttonText": "Mach das Quiz",
+      "successMessage": "Das sind einige typischen Mythen über COVID-19",
+      "readMore": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+      "questions": [
+        {
+          "title": "Kann das Wetter einen Corona-Ausbruch beeinflussen?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Heiße und feuchte Klimabedingungen töten das Virus!",
+              "title": "Nein, das COVID-19 Virus kann ÜBERALL übertragen werden, auch in Gegenden mit heißem oder feuchtem Wetter",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Vielleicht in kalten Klomazonen!",
+              "title": "Nein, es gibt keine Belege dafür zu glauben, daß kaltes Wetter das neue Coronavirus abtötet",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-cold-snow.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Das COVID-19 Virus kann in allen Gebieten übertragen werden.",
+              "title": "Das COVID-19 Virus kann in allen Gebieten übertragen werden, auch in Gegenden mit heißem oder feuchtem Wetter.",
+              "description": [
+                "Unabhängig vom Klima, ergreife Schutzmaßnahmen, wenn Du in Gegenden lebst oder einreist, aus denen COVID-19 Vorkommnisse berichtet werden. Die beste Art, Dich vor COVID-19 zu schützen, ist durch häufiges Händewaschen. Dadurch eliminierst Du die Viren die auf Dienen Händen sein könntet. Vermeide Infektionen dadurch, daß Du Deine Augen, Mund und Nase nicht anfaßt."
+              ],
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Können heiße Bäder COVID-19 verhindern?",
+          "description": "add description for question",
+          "hint": "Avoid touching eJa, nose and mouth",
+          "answers": [
+            {
+              "option": "Ja, heiße Bäder können helfen, das Virus zu verhindern.",
+              "title": "Ein heißes Bad zu nehmen, wird Dir nicht helfen, mit COVID-19 infiziert zu werden. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, heiße Bäder können nicht helfen, das Virus zu verhindern.",
+              "title": "Ein heißes Bad zu nehmen, wird Dir nicht helfen, mit COVID-19 infiziert zu werden. ",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mb-hot-bath.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Können UV Desinfektionslampen das Virus abtöten?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, die Strahlung ist sehr kräftig, daher sind UV Desinfektionslampen hilfreich.",
+              "title": "UV Lampen sollten nicht genutzt werden, um Deine Hände oder andere Bereiche Deiner Haut zu sterilisieren.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, UV Strahlung ist gefährlich.",
+              "title": "UV Lampen sollten nicht genutzt werden, um Deine Hände oder andere Bereiche Deiner Haut zu sterilisieren.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Kann es helfen, Alkohol oder Chlor über den Körper zu gießen um das Virus abzutöten?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Vielleicht, da Chlor ein effektives Sterilisationsmittel ist.",
+              "title": "Nein. Alkohol oder Chlor über den Körper zu gießen wird nicht helfen, um die Viren abzutöten, die bereits in Deinen Körper eingedrungen sind.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein. Alkohol oder Chlor über den Körper zu gießen wird nicht helfen",
+              "title": "Alkohol oder Chlor über den Körper zu gießen wird nicht helfen, um die Viren abzutöten, die bereits in Deinen Körper eingedrungen sind.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-33.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Hast Du bereits von Impfungen gegen dieses Virus gehört?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, Ich habe schon darüber gehört",
+              "title": "Nein. Impfungen gegen Lungenentzündung, wie die Pneumokokken Impfung, und die Haemophilus influenza type B (Hib) Impfung geben keinen Schutz gegen das neue Coronavirus.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, Impfungen sind noch nicht verfügbar",
+              "title": "Impfungen sind noch nicht verfügbar, aber Forscher auf der ganzen Welt arbeiten daran.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/11.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Helfen Nasespülungen mit Salz gegen das Virus?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, Nasespülungen mit Salz helfen gegen das Virus?",
+              "title": "Nein. Es gibt keine Nachweise, daß regelmäßige Nasespülungen mit Salz gegen das Virus helfen.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, Nasespülungen mit Salz helfen nicht gegen das Virus.",
+              "title": "Es gibt keine Nachweise, daß regelmäßige Nasespülungen mit Salz gegen das Virus helfen.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/23.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Weißt Du, ob es spezifische Altergruppen gibt, die gefährdet sind?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, vielleicht ältere Personen",
+              "title": "Personen allen Alters können vom neuen Coronavirus infiziert werden (2019-nCoV). Aber ältere Personen mit bestehenden Vorerkrankungen scheinen verwundbarer zu sein.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Ja, junge Personen wegen ihrer niedrigeren Immunität",
+              "title": "Personen allen Alters können vom neuen Coronavirus infiziert werden (2019-nCoV). Aber ältere Personen mit bestehenden Vorerkrankungen scheinen verwundbarer zu sein.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            },
+            {
+              "option": "Ich bin mir nicht sicher",
+              "title": "Personen allen Alters können vom neuen Coronavirus infiziert werden (2019-nCoV). Aber ältere Personen mit bestehenden Vorerkrankungen scheinen verwundbarer zu sein.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-2.png",
+              "correctAnswer": true
+            }
+          ]
+        },
+        {
+          "title": "Ist die Nutzung von Antibiotika effektiv? Oder gibt es spezifische Medizin?",
+          "description": "add description for question",
+          "hint": "",
+          "answers": [
+            {
+              "option": "Ja, Fieber kann mit Antibiotika behandelt werden, warum also nicht COVID-19?",
+              "title": "Nein, Antibiotika helfen nicht gegen Viren, nur gegen Bakterien.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": false
+            },
+            {
+              "option": "Nein, da Antibiotika nur gegen bakterielle Infekte helfen.",
+              "title": "Antibiotika helfen nicht gegen Viren, nur gegen Bakterien.",
+              "description": [],
+              "imageUrl": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbuster-3.png",
+              "correctAnswer": true
+            }
+          ]
+        }
+      ]
+    },
